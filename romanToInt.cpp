@@ -1,7 +1,5 @@
 #include <iostream>
 
-// GitHub Test
-
 using std::string;
 using std::cout;
 using std::endl;
@@ -11,7 +9,7 @@ class Solution
 public:
     int romanToInt(string s)
     {
-        int result = 0, i = 0;
+        int result = 0, i = 0 , tempNum;
 
         if (s[i] == 'M')
         {
@@ -27,7 +25,7 @@ public:
 
         if (s[i] == 'D' || s[i] == 'C')
         {
-            int tempNum = 0;
+            tempNum = 0;
 
             if (s[i] == 'D')
             {
@@ -69,7 +67,7 @@ public:
 
         if(s[i] == 'L' || s[i] == 'X')
         {
-            int tempNum = 0;
+            tempNum = 0;
 
             if(s[i] == 'L')
             {
@@ -107,7 +105,7 @@ public:
 
         if(s[i] == 'V' || s[i] == 'I')
         {
-            int tempNum = 0;
+            tempNum = 0;
 
             if(s[i] == 'V')
             {
@@ -146,6 +144,15 @@ public:
 
         return result;
     }
+
+    int NumberConvert()
+    {
+
+    }
+
+    
+
+   
 };
 
 int main(void)
