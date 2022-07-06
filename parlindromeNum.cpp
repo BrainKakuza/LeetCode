@@ -8,7 +8,6 @@ using std::stringstream;
 
 class Solution {
 public:
-
     bool isPalindrome(int x) {
         stringstream ss;
         ss << x;
